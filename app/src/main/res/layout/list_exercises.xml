@@ -8,11 +8,18 @@
         android:id="@+id/nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nome" />
+        android:paddingTop="15dp"
+        android:paddingBottom="0dp"
+        android:text="Nome"
+        android:textAlignment="center"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/tempo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tempo" />
+        android:padding="15dp"
+        android:text="Tempo"
+        android:textAlignment="center"
+        android:textSize="16sp" />
 </LinearLayout>
